@@ -6,7 +6,7 @@ orbs:
 jobs:
   build:
     docker:
-      - image: circleci/node:12.13.0
+      - image: cypress/base:12.6.0
     steps:
       - checkout
       - cypress/install
